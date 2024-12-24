@@ -1,0 +1,26 @@
+@media (max-width: 680px) {
+  h1 {
+    font-size: 2.8rem;
+  }
+
+  .hero-section {
+    min-height: 70vh;
+    padding-left: 0.5rem;
+  }
+
+  .image-container {
+    width: 95%;
+  }
+
+  .btn {
+    margin-bottom: 4rem;
+  }
+
+  .about-me {
+    width: 20rem;
+  }
+
+  form {
+    width: 25rem;
+  }
+}

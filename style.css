@@ -1,0 +1,208 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+* {
+  font-family: "Poppins", serif;
+}
+
+:root {
+  --green-clr: #ddfe02;
+  --grey-clr: #d1d0d0;
+  --dark-blue-clr: #171c22;
+}
+
+html,
+body {
+  min-height: 100vh;
+  width: 100vw;
+  max-width: 100vw;
+}
+
+.bg-green {
+  background: var(--green-clr);
+}
+
+.bg-dark-blue {
+  background: var(--dark-blue-clr);
+}
+
+.txt-green {
+  color: var(--green-clr);
+}
+
+.txt-grey {
+  color: var(--grey-clr);
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* body {
+  background-color: #171c22;
+} */
+
+.nav-logo {
+  width: 8.5rem;
+}
+
+.mybtn {
+  border: 0.1rem solid var(--green-clr) !important;
+  padding: 0.5rem 1.6rem;
+}
+
+.mybtn:hover {
+  background: transparent;
+  color: var(--green-clr) !important;
+}
+
+.navbar-toggler-icon {
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30"><path stroke="rgba%28255, 255, 255, 1%29" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"/></svg>');
+  width: 2.2rem;
+}
+
+.nav-link {
+  color: white;
+}
+
+.nav-link:hover {
+  color: var(--green-clr);
+}
+
+.image-container {
+  border-top: 1rem solid white;
+  border-bottom: 1rem solid white;
+  background-image: url(drive-download-20241221T041715Z-001/profile.png);
+  background-position: center;
+  background-size: 115%;
+  width: 30rem;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  box-shadow: 0 0 1rem white, inset 0 0 1rem white, 0 0 2rem #3877ff,
+    inset 0 0 2rem #3877ff, 0 0 7rem #3877ff, inset 0 0 4rem #3877ff;
+}
+
+.hero-section {
+  min-height: 85vh;
+}
+
+h1 {
+  font-size: 4rem;
+  font-family: "Merriweather Sans", serif;
+}
+
+p {
+  font-size: 0.95rem;
+}
+
+.para {
+  max-width: 500px;
+}
+
+.main-text {
+  letter-spacing: 0.2rem;
+  font-size: 0.8rem;
+}
+
+.about-me {
+  width: 35rem;
+}
+
+.section-conatiner {
+  padding-block: 4rem;
+}
+
+.glow {
+  position: relative;
+}
+
+.glow::before {
+  content: "";
+  background: #3877ff;
+  position: absolute;
+  inset: 4rem;
+  border-radius: 50%;
+  z-index: -1;
+  filter: blur(70px);
+}
+
+div.space {
+  margin-top: 40rem;
+}
+
+.hover-card:hover {
+  background-color: #3877ff;
+}
+
+.hover-card:hover * {
+  color: black !important;
+}
+
+.my-card {
+  width: 23rem;
+  transition: all 0.5s;
+}
+
+.my-card:hover {
+  transform: scale(1.1);
+}
+
+.blog-card {
+  width: 23rem;
+}
+
+form {
+  width: 33rem;
+}
+
+.message {
+  padding-bottom: 6rem;
+}
+
+.form-control {
+  border: 0.1rem solid var(--grey-clr);
+}
+
+.form-control:focus {
+  box-shadow: none;
+  border: 0.1rem solid var(--grey-clr);
+}
+
+#floatingTextarea {
+  resize: none;
+}
+
+.line {
+  background: gray;
+  height: 0.1rem;
+}
+
+.profile {
+  width: 3rem;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.profile img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.prev,
+.next {
+  font-size: 1.2rem;
+  padding: 0.5rem 0.6rem;
+  border-radius: 50%;
+}

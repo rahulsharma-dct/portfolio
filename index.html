@@ -1,0 +1,641 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Website</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="quries.css" />
+    <script defer src="script.js"></script>
+  </head>
+  <body class="bg-black">
+    <!-- nav-bar -->
+    <nav class="navbar navbar-expand-lg py-3">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img
+            src="drive-download-20241221T041715Z-001/Screenshot_2024-12-21_133946-removebg-preview.png"
+            alt="logo"
+            class="nav-logo"
+          />
+        </a>
+        <button
+          class="navbar-toggler border-0 shadow-none"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon" style="color: green"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse text-center"
+          id="navbarSupportedContent"
+        >
+          <ul class="navbar-nav m-auto mb-2 mb-lg-0 gap-3">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Work</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+          <a
+            class="btn mybtn text-uppercase rounded-0 bg-green"
+            href="#"
+            role="button"
+            >let's talk</a
+          >
+        </div>
+      </div>
+    </nav>
+
+    <!-- all sections start here -->
+    <main>
+      <section class="hero-section d-flex align-items-center">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-lg-6">
+              <span class="text-light text-uppercase main-text">Hello I'm</span>
+              <h1 class="text-light fw-bold">
+                Web Designer & <span class="txt-green">Developer</span>
+              </h1>
+              <p class="text-light my-4 para">
+                Hi I am Rahul, a passionate Web Developer based in the India.
+                <br />
+                Welcome to my Portfolio
+              </p>
+              <a
+                class="btn mybtn text-uppercase rounded-0 bg-green"
+                href="#"
+                role="button"
+                >View Portfolio</a
+              >
+            </div>
+            <div class="col-lg-6">
+              <div class="image-container mx-auto"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-container mt-5">
+        <div class="container">
+          <div class="row align-items-center gap-5 gap-lg-0 mt-5">
+            <div class="col-lg-6 order-last order-lg-first">
+              <div class="about-me glow">
+                <img
+                  src="drive-download-20241221T041715Z-001/about me.png"
+                  alt="About me "
+                />
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <span class="text-light text-uppercase main-text"
+                >let me introduce my self</span
+              >
+              <h2 class="txt-green fw-semibold">About Me</h2>
+              <h5 class="text-light mt-4">
+                A story of hardwork and perseverance
+              </h5>
+              <p class="text-light para">
+                Hi, I' Rahul, a Web Developer and Designer specializing in
+                user-friendly Website. My expertise blends innovative Design
+                with robust functionality to bring your digital ideas to life.
+              </p>
+              <h5 class="txt-green mt-4">Contact</h5>
+              <p class="text-light para">
+                Do you have fancy saying hi to me or you want to get started
+                with your project and you need my help? feel free to contact me
+                <span class="txt-green"
+                  >rahulsharma.dcttechnology@gmail.com</span
+                >
+                <a href="#" class="txt-green"></a>
+              </p>
+              <a
+                class="btn mybtn text-uppercase rounded-0 bg-green"
+                href="#"
+                role="button"
+                >Hire Me</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-container mt-5">
+        <div class="container text-center mb-2 mt-5">
+          <span class="text-light text-uppercase main-text"
+            >What i will do for you
+          </span>
+          <h2 class="txt-green fw-semibold">Services</h2>
+        </div>
+        <div class="row m-5 gap-4 gap-lg-0">
+          <div class="col-lg-4">
+            <div class="card bg-dark-blue glow py-5 text-center hover-card">
+              <div class="card-body">
+                <i class="fa-solid fa-desktop d-block fs-1 txt-green mb-4"></i>
+                <span class="text-white text-uppercase main-txt"
+                  >212 projects
+                </span>
+                <h5 class="card-title text-light fs-4 mb-3">Web Design</h5>
+                <p class="card-text text-light">
+                  offering tailored web design services to craft visually
+                  stunning, user-friendly websites that enhance your brand's
+                  presence.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="card bg-dark-blue glow py-5 text-center hover-card">
+              <div class="card-body">
+                <i
+                  class="fa-solid fa-pen-ruler d-block fs-1 txt-green mb-4"
+                ></i>
+                <span class="text-white text-uppercase main-txt"
+                  >170 projects
+                </span>
+                <h5 class="card-title text-light fs-4 mb-3">UI & UX Design</h5>
+                <p class="card-text text-light">
+                  Delivering exceptional UI/UX design service to enhance user
+                  experience and engagment with intuitive interfaces.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4">
+            <div class="card bg-dark-blue glow py-5 text-center hover-card">
+              <div class="card-body">
+                <i
+                  class="fa-solid fa-file-code d-block fs-1 txt-green mb-4"
+                ></i>
+                <span class="text-white text-uppercase main-txt"
+                  >98 projects
+                </span>
+                <h5 class="card-title text-light fs-4 mb-3">Web Development</h5>
+                <p class="card-text text-light">
+                  offering expert web development services to create custom,
+                  scalable websites with seamless functionality and modern
+                  design.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section-container mt-5">
+        <div class="container text-center">
+          <span class="text-light text-uppercase main-text"
+            >some of my recent works
+          </span>
+          <h2 class="txt-green fw-semibold">portfolio</h2>
+          <div class="row mt-5 justify-content-center gap-3 row-gap-5">
+            <div class="col-lg-4 my-card glow">
+              <div class="card bg-dark-blue">
+                <img
+                  src="drive-download-20241221T041715Z-001/project1.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body bg-dark-blue">
+                  <h5 class="card-title text-white">ViewScape</h5>
+                  <p class="card-text text-light">
+                    Building cutting-edge websites with responsive design,
+                    intuitive user interface, and powerful functionality to
+                    elevate online presence and engagement
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 my-card glow">
+              <div class="card bg-dark-blue">
+                <img
+                  src="drive-download-20241221T041715Z-001/project2.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body bg-dark-blue">
+                  <h5 class="card-title text-white">Currencypulse</h5>
+                  <p class="card-text text-light">
+                    Building cutting-edge websites with responsive design,
+                    intuitive user interface, and powerful functionality to
+                    elevate online presence and engagement
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 my-card glow">
+              <div class="card bg-dark-blue">
+                <img
+                  src="drive-download-20241221T041715Z-001/project3.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body bg-dark-blue">
+                  <h5 class="card-title text-white">BazzerBay</h5>
+                  <p class="card-text text-light">
+                    Building cutting-edge websites with responsive design,
+                    intuitive user interface, and powerful functionality to
+                    elevate online presence and engagement
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 my-card glow">
+              <div class="card bg-dark-blue">
+                <img
+                  src="drive-download-20241221T041715Z-001/project4.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body bg-dark-blue">
+                  <h5 class="card-title text-white">BrainBooster</h5>
+                  <p class="card-text text-light">
+                    Building cutting-edge websites with responsive design,
+                    intuitive user interface, and powerful functionality to
+                    elevate online presence and engagement
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 my-card glow">
+              <div class="card bg-dark-blue">
+                <img
+                  src="drive-download-20241221T041715Z-001/project5.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body bg-dark-blue">
+                  <h5 class="card-title text-white">MelodyMingle</h5>
+                  <p class="card-text text-light">
+                    Building cutting-edge websites with responsive design,
+                    intuitive user interface, and powerful functionality to
+                    elevate online presence and engagement
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 my-card glow">
+              <div class="card bg-dark-blue">
+                <img
+                  src="drive-download-20241221T041715Z-001/project6.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body bg-dark-blue">
+                  <h5 class="card-title text-white">CitrusSplash</h5>
+                  <p class="card-text text-light">
+                    Building cutting-edge websites with responsive design,
+                    intuitive user interface, and powerful functionality to
+                    elevate online presence and engagement
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-container">
+        <div class="container mt-5 text-center">
+          <span class="text-light text-uppercase main-text"
+            >What my Client says
+          </span>
+          <h2 class="txt-green fw-semibold">Testimonial</h2>
+          <div class="swiper mySwiper mt-5">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide bg-dark-blue p-4 rounded-3">
+                <div class="row">
+                  <div class="col-lg-2">
+                    <div class="profile">
+                      <img
+                        src="drive-download-20241221T041715Z-001/client 2.jpg"
+                        alt=""
+                      />
+                    </div>
+                  </div>
+
+                  <div class="col-lg-10 text-start">
+                    <h5 class="text-white">Gunjan Bagga</h5>
+                    <p class="text-white">Digital Marketer</p>
+                  </div>
+                </div>
+                <div class="row">
+                  <p class="text-light text-start">
+                    I recently had the pleasure of working with Rahul for a
+                    complete overhaul of my websites, and I can honestly says it
+                    was one the best decision I've made for my business!
+                  </p>
+                </div>
+              </div>
+              <div class="swiper-slide bg-dark-blue p-4 rounded-3">
+                <div class="row">
+                  <div class="col-lg-2">
+                    <div class="profile">
+                      <img
+                        src="drive-download-20241221T041715Z-001/shared image.jpg"
+                        alt=""
+                      />
+                    </div>
+                  </div>
+
+                  <div class="col-lg-10 text-start">
+                    <h5 class="text-white">Anshul Rana</h5>
+                    <p class="text-white">Designer</p>
+                  </div>
+                </div>
+                <div class="row">
+                  <p class="text-light text-start">
+                    I recently had the pleasure of working with Rahul for a
+                    complete overhaul of my websites, and I can honestly says it
+                    was one the best decision I've made for my business!
+                  </p>
+                </div>
+              </div>
+              <div class="swiper-slide bg-dark-blue p-4 rounded-3">
+                <div class="row">
+                  <div class="col-lg-2">
+                    <div class="profile">
+                      <img
+                        src="drive-download-20241221T041715Z-001/shared image (1).jpg"
+                        alt=""
+                      />
+                    </div>
+                  </div>
+
+                  <div class="col-lg-10 text-start">
+                    <h5 class="text-white">Samar Harjai</h5>
+                    <p class="text-white">Developer</p>
+                  </div>
+                </div>
+                <div class="row">
+                  <p class="text-light text-start">
+                    I recently had the pleasure of working with Rahul for a
+                    complete overhaul of my websites, and I can honestly says it
+                    was one the best decision I've made for my business!
+                  </p>
+                </div>
+              </div>
+              <div class="swiper-slide bg-dark-blue p-4 rounded-3">
+                <div class="row">
+                  <div class="col-lg-2">
+                    <div class="profile">
+                      <img
+                        src="drive-download-20241221T041715Z-001/client 1.jpg"
+                        alt=""
+                      />
+                    </div>
+                  </div>
+
+                  <div class="col-lg-10 text-start">
+                    <h5 class="text-white">Gunjan Bagga</h5>
+                    <p class="text-white">Digital Marketer</p>
+                  </div>
+                </div>
+                <div class="row">
+                  <p class="text-light text-start">
+                    I recently had the pleasure of working with Rahul for a
+                    complete overhaul of my websites, and I can honestly says it
+                    was one the best decision I've made for my business!
+                  </p>
+                </div>
+              </div>
+              <div class="swiper-slide bg-dark-blue p-4 rounded-3">
+                <div class="row">
+                  <div class="col-lg-2">
+                    <div class="profile">
+                      <img
+                        src="drive-download-20241221T041715Z-001/client 3.jpg"
+                        alt=""
+                      />
+                    </div>
+                  </div>
+
+                  <div class="col-lg-10 text-start">
+                    <h5 class="text-white">chetan gulati</h5>
+                    <p class="text-white">Digital Marketer</p>
+                  </div>
+                </div>
+                <div class="row">
+                  <p class="text-light text-start">
+                    I recently had the pleasure of working with Rahul for a
+                    complete overhaul of my websites, and I can honestly says it
+                    was one the best decision I've made for my business!
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="control mt-4 d-flex justify-content-center gap-4">
+              <i class="fa-solid fa-arrow-left bg-green prev"></i>
+              <i class="fa-solid fa-arrow-right bg-green next"></i>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-container mt-5">
+        <div class="container text-center">
+          <span class="text-light text-uppercase main-text">latest blogs </span>
+          <h2 class="txt-green fw-semibold">blog</h2>
+          <div
+            class="row mt-5 justify-content-center gap-3 row-gap-5 align-items-stretch"
+          >
+            <div class="col-lg-4 blog-card glow">
+              <div class="card bg-dark-blue px-3 pb-3">
+                <img
+                  src="drive-download-20241221T041715Z-001/blog 1.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body bg-dark-blue">
+                  <h5 class="card-title text-white fs-5s">
+                    Programming perspectives
+                  </h5>
+                  <p class="card-text text-light">
+                    Programming Perspective provides expert tutoriala and
+                    insights to elevate coding skills and keep up with tech
+                    trends.
+                  </p>
+                  <a
+                    class="btn mybtn text-uppercase rounded-0 bg-green"
+                    href="#"
+                    role="button"
+                    >View Blog</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 blog-card glow">
+              <div class="card bg-dark-blue px-3 pb-3">
+                <img
+                  src="drive-download-20241221T041715Z-001/blog 2.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body bg-dark-blue">
+                  <h5 class="card-title text-white">Web Development & AI</h5>
+                  <p class="card-text text-light">
+                    Web Development & AI explores trends, tutoriala, and
+                    innovations in web tech and artifical intelligence for
+                    developers.
+                  </p>
+                  <a
+                    class="btn mybtn text-uppercase rounded-0 bg-green"
+                    href="#"
+                    role="button"
+                    >View Blog</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 blog-card glow">
+              <div class="card bg-dark-blue px-3 pb-3">
+                <img
+                  src="drive-download-20241221T041715Z-001/blog 3.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body bg-dark-blue">
+                  <h5 class="card-title text-white">
+                    Design Patterns & Principals
+                  </h5>
+                  <p class="card-text text-light">
+                    Explore essentaial design patterns and principals to enhanes
+                    code quality, maintainability, and scalability effectively.
+                  </p>
+                  <a
+                    class="btn mybtn text-uppercase rounded-0 bg-green"
+                    href="#"
+                    role="button"
+                    >View Blog</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section-container">
+        <div class="container text-center mt-5">
+          <span class="text-light text-uppercase main-text">get in touch</span>
+          <h2 class="txt-green fw-semibold">Contact</h2>
+          <form class="bg-green mx-auto mt-5 px-4 py-5 rounded-3 email">
+            <div class="mb-3">
+              <input
+                type="email"
+                class="form-control py-2"
+                id="exampleInputEmail1"
+                aria-describedby="emailHelp"
+                placeholder="Your Name"
+              />
+            </div>
+            <div class="mb-3">
+              <input
+                type="email"
+                class="form-control py-2"
+                id="exampleInputEmail1"
+                aria-describedby="emailHelp"
+                placeholder=" Your Email"
+              />
+            </div>
+            <div class="mb-3">
+              <input
+                type="text"
+                class="form-control py-2"
+                id="exampleInputPassword1"
+                placeholder="Your subject"
+              />
+            </div>
+            <div class="mb-3">
+              <textarea
+                class="form-control"
+                placeholder="Your Message"
+                id="floatingTextarea"
+                style="height: 100px"
+              ></textarea>
+            </div>
+            <button
+              type="submit"
+              class="btn mybtn text-uppercase rounded-0 bg-black text-white mt-3"
+            >
+              Send Message
+            </button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="mt-5">
+      <div class="container mb-5">
+        <div class="line"></div>
+        <div class="row mt-3 gap-2 gap-lg-0">
+          <div
+            class="col-lg-6 d-flex justify-content-sm-start justify-content-center"
+          >
+            <a href="#">
+              <i class="fa-brands fa-facebook-f txt-green fs-5"></i>
+            </a>
+            <a href="#" class="ms-3">
+              <i class="fa-brands fa-twitter txt-green fs-5"></i>
+            </a>
+            <a href="#" class="ms-3">
+              <i class="fa-brands fa-behance txt-green fs-5"></i>
+            </a>
+            <a href="#" class="ms-3">
+              <i class="fa-brands fa-instagram txt-green fs-5"></i>
+            </a>
+          </div>
+          <div class="col-lg-6">
+            <p class="text-gray text-lg-end text -center">
+              Copyright &copy; 2024 - All rights are text-reserved by Rahul
+              Coding
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+      integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  </body>
+</html>
