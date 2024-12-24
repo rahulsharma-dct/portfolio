@@ -24,3 +24,9 @@
     width: 25rem;
   }
 }
+
+@media (max-width: 450px) {
+  form {
+    width: 90%;
+  }
+}
